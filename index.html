@@ -1,0 +1,150 @@
+---
+layout: full-width
+title: About
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+  <meta name="description" content="Samuel Finlayson's personal webpage -- machine learning and medicine" />
+
+<meta name="keywords" content= "research, medicine, machine learning"/>
+<link rel="stylesheet" type="text/css" href="./about.css" media="all" />
+<!-- <link rel="stylesheet" type="text/css" href="./tufte.css" media="all" /> -->
+
+
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="new2011/styles/np-ie67.css" type="text/css" media="all" />
+<![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="../static/js/layout.js"></script>
+<script type="text/javascript" src="../static/js/common.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- toggle abstracts -->
+<script>
+jQuery(function(){
+        jQuery('#showall').click(function(){
+               jQuery('.targetDiv').show();
+        });
+        jQuery('.showSingle').click(function(){
+              //jQuery('.abstract').hide();
+              jQuery('#div'+$(this).attr('target')).slideToggle(100); //show();
+        });
+});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122144402-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122144402-1');
+</script>
+
+<!-- set title / toggle blog vs not blog -->
+
+  <title>Samuel Finlayson</title>
+
+</head>
+
+<body class="white">
+
+<div id="container" style="text-decoration: none; padding-top: 30px;">
+
+   <div style="display:table;">
+      <div class="headshot">
+        <img src="../static/Finlayson_Headshot.jpg" style="width:100%; max-width:150px;">
+        <!--style="width:200px;float:left;padding:10px; padding-right:30px; height:100%;">-->
+      </div>
+
+      <div class="standfirst">
+        <span style="font-size: xx-large ;">UT Southwestern Running Club</span> 
+        
+        <br>
+
+        </div>
+      </div>
+        <p class="intro" style="padding-top: 10px;">
+           Description Here.
+        </p>
+    </div><!-- table container -->
+   
+
+    <!-- <div class="container" style="font-size:18px; font-weight:300;margin-top:15px;margin-bottom:15px;"> -->
+  
+</div>
+
+<span style="font-size: xx-large ;">If we want a timeline, we can use this:</span> 
+
+<div class="container" style="padding-top: 20px; padding-bottom: 60px">
+  <div id="timeline">
+    <div class="timelineitem">
+      <div class="tdate">2022 (Anticipated)</div>
+      <div class="ttitle">Harvard Medical School, MIT</div>
+      <div class="tdesc">MD, <span class="thigh">HST Program</span></div>
+      <div class="tdesc">MSTP Fellowship</div>
+      </div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2020</div>
+      <div class="ttitle">Harvard, MIT</div>
+      <div class="tdesc">PhD, <span class="thigh">Quantitative Biology</span></div>
+      <div class="tdesc">Advisors: Isaac Kohane (HMS DBMI) and Peter Szolovits (MIT CSAIL)</div>
+      <div class="tdesc">Thesis: <a href="https://www.dropbox.com/s/slw2vkxajgwgp6i/PhD_Thesis.pdf?dl=0"> Learning Inductive Representations of Biomedical Data</a> </div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2014</div>
+      <div class="ttitle">Stanford University</div>
+      <div class="tdesc">MS, <span class="thigh">Biomedical Informatics</span></div>
+      <div class="tdesc">Research Mentor: Nigam Shah</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2013</div>
+      <div class="ttitle">Stanford University</div>
+      <div class="tdesc">BA, <span class="thigh">Human Biology - Biocomputation</span></div>
+      <div class="tdesc">Research Mentor: Daniel Rubin</div>
+    </div>
+  </div>
+</div>
+
+
+
+<h2 id="publications">Selected Research</h2>
+<br>
+</body>
+
+
+<script>
+$('#email-button').click(function() {
+  $('#email-div').toggle('slow', function() {
+    // Animation complete.
+  });
+});
+</script>
+
+<script>
+
+$( "div.pub-info" ).click(function(event) {
+    $(this).toggleClass("pub-full");
+});
+$( "div.pub-info" ).hover(function(event) {
+    $(this).toggleClass("pub-full");
+});
+</script>
+
+</html>
+
+
+
+
